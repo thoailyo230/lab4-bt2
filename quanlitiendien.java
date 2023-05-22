@@ -106,12 +106,12 @@ public class ElectricBillManagement {
         }
     }
 
-    private static void displayBillsInSeptember2013() {
-        System.out.println("Bills in September 2013");
+    private static void displayBillsfromMay19,2023toMay22,2023() {
+        System.out.println("Bills fromMay19,2023toMay22,2023");
         boolean found = false;
 
         for (Customer customer : customers) {
-            if (customer.date.startsWith("2013-09")) {
+            if (customer.date.startsWith("fromMay19,2023toMay22,2023")) {
                 System.out.println(customer);
                 found = true;
             }
